@@ -1,0 +1,25 @@
+#Default configuration file for CensorDrops -Anthony Vitale evolutionarygames.net and github.com/big11hitters
+DisableAllMobDrops: false
+DisableZombieDrops: false
+DisableCreeperDrops: false
+DisableSkeletonDrops: false
+DisableSpiderDrops: false
+DisableCaveSpiderDrops: false
+DisableSlimeDrops: false
+DisableEndermanDrops: false
+DisableBlazeDrops: false
+DisableZombiePigmenDrops: false
+DisableGhastDrops: false
+DisableMagmaCubeDrops: false
+DisableWitherSkeletonDrops: false
+DisableChickenDrops: false
+DisableCowDrops: false
+DisablePigDrops: false
+DisableSheepDrops: false
+DisableSquidDrops: false
+DisableMooshroomDrops: false
+
+#Set special drops for each mob using Minecraft's data values. Use commas if you want multiple items to drop.
+ZombieDrop: 122
+CreeperDrop: 155
+SkeletonDrop: 233, 234

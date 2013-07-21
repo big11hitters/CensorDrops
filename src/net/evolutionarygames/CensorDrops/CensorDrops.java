@@ -8,10 +8,11 @@ import org.bukkit.plugin.PluginManager;
 public final class CensorDrops extends JavaPlugin {
 	@Override
 	public void onEnable(){
+		getConfig().options().copyDefaults(true);
+		this.saveDefaultConfig();
 		PluginManager pm = this.getServer().getPluginManager();
-		Listener dL = new DropsListener();
+		Listener dL = new DropsListener(this);
 		pm.registerEvents(dL, this);
-		
 	}
 	@Override
 	public void onDisable(){
